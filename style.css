@@ -1,0 +1,112 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i';
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    float: left;
+    opacity: 1;
+}
+
+#container-bg {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 0;
+}
+
+.bg {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+#c-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#c {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#ideas {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 10;
+}
+
+.idea {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.idea-text {
+    width: calc(100% - 20px);
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    padding: 0 10px;
+    font-weight: 600;
+    line-height: 1em;
+    position: relative;
+    float: left;
+}
+
+/*GREAT IDEAS BURN*/
+#idea-text-left {
+    color: white;
+    text-align: right;
+    text-shadow: 0px 0px 20px rgba(0,0,0,0.5)
+}
+
+/*FUEL*/
+#idea-text-right {
+    color: black;
+    text-align: left;
+    margin-top: 2em;
+}
