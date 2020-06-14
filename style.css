@@ -1,0 +1,71 @@
+.penisKuk {
+  margin-top:50px;
+ 
+}
+.testikel {
+  background-color:brown;
+  height:75px;
+  width:75px;
+  border-radius:50px;
+ 
+  position:absolute;
+}
+.ett {
+  margin-top:56px;
+}
+.två {
+  left:60px;
+  opacity:0.9;
+  margin-top:56px;
+}
+
+.penis {
+  position:absolute;
+  width: 250px;
+  left:30px;
+  
+  }
+.ollon {
+  margin-top:-12px;
+  left: 220px;
+  width:100px;
+  height:100px;
+  background-color: purple;
+}
+
+.ollon p {
+  position:absolute;
+  font-size:56px;
+  left:84px;
+  bottom: -34px;
+}
+
+.skinka {
+  width:200px;
+  height:200px;
+  border-radius:100px;
+  background-color: #D49A6A;
+  position:relative;
+  left:400px;
+}
+.ette {
+  z-index:-9990;
+  bottom:40px;
+}
+.tve {
+  bottom:250px;
+  left:423px;
+  background-color:#804515;
+}
+
+@keyframes pök {
+  50% {
+    transform:translateX(200px);
+    
+  }
+}
+.snoppe {
+  animation-name:pök;
+  animation-duration:3s;
+  animation-iteration-count: infinite;
+}
